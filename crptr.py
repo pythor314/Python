@@ -65,7 +65,7 @@ def dec(data,key,iv):
 def main():
 	global asci
 	asci = xrange(0,256)
-	usage = 'Usage: crptr.py <method> <path>\nEx: crptr.py -e /home/'
+	usage = 'Usage: crptr.py <method> <path>\nEx:\n\tcrptr.py -e /home/\n\tcrptr.py -d /home/'
 
 	if len(sys.argv) < 3:
 		print usage
